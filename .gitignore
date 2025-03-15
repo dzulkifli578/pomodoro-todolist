@@ -1,0 +1,4 @@
+pomodoro-cli
+*.exe
+*.out
+*.json
