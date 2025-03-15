@@ -34,12 +34,12 @@ pomodoro-cli/
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/username/pomodoro-cli.git
-   cd pomodoro-cli
-   ```
+    ```bash
+    git clone https://github.com/username/pomodoro-cli.git
+    cd pomodoro-cli
+    ```
    
-2.**Install Dependencies:**
+2. **Install Dependencies:**
 
     Make sure you have Go installed (minimum version 1.20). Run the following command:
     
@@ -49,11 +49,12 @@ pomodoro-cli/
 
 3. **Build the Application:**
 
-```bash
+    ```bash
     go build -o pomodoro-cli
-```
+    ```
 
-Usage
+## Usage
+
 Run the application with the command:
 
 ```bash
@@ -70,26 +71,27 @@ Example Commands
 
 - Create a New Task:
 
-  ```bash
-  ./pomodoro-cli task create
-  ```
+    ```bash
+    ./pomodoro-cli task create
+    ```
   
 - Read All Tasks:
 
-  ```bash
-  ./pomodoro-cli task read
-  ```
+    ```bash
+    ./pomodoro-cli task read
+    ```
   
 - Delete a Task:
 
-```bash
-./pomodoro-cli task delete
-```
+    ```bash
+    ./pomodoro-cli task delete
+    ```
 
-Start the Pomodoro Timer:
-```bash
-./pomodoro-cli pomodoro
-```
+- Start the Pomodoro Timer:
+
+    ```bash
+    ./pomodoro-cli pomodoro
+    ```
 
 > **Note:**  
 > During a Pomodoro session, you can cancel the timer by typing `cancel` during the countdown.
